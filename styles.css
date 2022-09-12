@@ -1,0 +1,150 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+   
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+body{
+    font-family: "Montserrat";
+}
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand{
+    font-family: "Ubantu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-weight: bolder;
+}
+.download-button{
+    margin:5% 3% 5% 0;
+}
+.title_img{
+    transform: rotate(25deg);
+    position: absolute;
+    width: 20%;
+    right: 18%;
+    top: 35%;
+}
+
+
+/* Features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.feature_box{
+    text-align: center;
+    
+}
+
+p{
+    color: darkgray;
+}
+.fe{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.fe:hover{
+    color: red;
+}
+
+/* testimonials */
+
+#testimonials{
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* carousels */
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 120px;
+    text-align: center;
+}
+.price-block{
+    padding: 3% 2%;
+}
+
+@media (max-width:969px){
+
+    #title{
+        text-align: center;
+    }
+    .title_img{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 7%;
+    color: #fff;
+}
+
+#footer{
+    padding: 2% 2%;
+    text-align: center;
+}
+.f-ic{
+    margin: 5px;
+}
+
+#footer p{
+    color: lightslategray;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
